@@ -1,0 +1,36 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: grey;
+    margin: auto;
+}
+.header .container {
+    width: 80%;
+    margin: auto;
+}
+.header .logo {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
+.header .nav {
+    width: 70%;
+    float: left;
+    padding: 20px 110px;   
+}
+.header .nav li{
+    display: inline-block;
+}
+.header .nav li a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 50px 10px;
+}
